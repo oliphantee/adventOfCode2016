@@ -50,3 +50,5 @@ for line in file.readlines():
         if char=="D" and val not in [5,10,13,12,9]:
             row+=1
     print(getVal(row,col)) # part 2
+
+file.close()

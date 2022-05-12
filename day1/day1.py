@@ -28,3 +28,5 @@ for dir in line:
 
 print(abs(locX)+abs(locY)) # part 1
 print(abs(easterLoc[0])+abs(easterLoc[1])) # part 2
+
+file.close()
